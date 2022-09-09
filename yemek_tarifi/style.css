@@ -1,0 +1,24 @@
+.summary {
+    align-items: center;
+    border-bottom: 4px solid #c01f54;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+
+.summary-title {
+    color: #c01f54;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+    margin-bottom: .5rem;
+}
+
+.summary-text {
+    font-size: 1.6rem;
+    }
+
+    .theme-color{
+        color: #c01f54;
+    }
