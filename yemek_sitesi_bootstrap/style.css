@@ -1,0 +1,100 @@
+body{
+    margin:0 auto;
+    background-color: #E9ECEF ;
+}
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+.summary {
+    align-items: center;
+    border-bottom: 4px solid #c01f54;
+    padding-right: 5px;
+}
+
+.summary-title {
+    color: #c01f54;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+    margin-bottom: .5rem;
+}
+
+.summary-text {
+    font-size: 1.6rem;
+    }
+
+    .theme-color{
+        color: #c01f54;
+    }
+
+    .logo{
+        padding: 20px;
+        text-align: center;
+        background-color: #c01f54;
+    }
+    .menu {
+        list-style: none;
+        height: 100%;
+    }
+
+    .menu>li {
+        height: 100%;
+        /* margin: 0 15px; */
+        /* width: 33%; */
+        /* background-color: #282A35; */
+    }
+
+    .menu>li :hover,
+    .menu> .active{
+    background-color: #4CAF50;
+    }
+
+    .menu>li>a{
+        display: block;
+        text-align: center;
+        line-height: 50px;
+        text-decoration: none;
+        padding: 15px;
+        height: 100%;
+        color: white!important;
+    }
+
+    .sub-title{
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+
+    .sectionTitle{
+    align-items: center;
+    color: #484848;
+    display: flex;
+    font-size: 2.6rem;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 40px;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+    }
+
+    .sectionTitle::before,
+    .sectionTitle::after{
+        border: 1px solid #484848;
+        content: "";
+        flex: 1 0 20px;
+    }
+
+    .sectionTitle ::before{
+        margin: 0 20px 0 0;
+    }
+    .sectionTitle ::after{
+        margin: 0 0 0 20px;
+    }
+
+    .sectionTitle span{
+        padding: 0 10px;
+        color: #484848;
+        text-decoration: none;
+    }
