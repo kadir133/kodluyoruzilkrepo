@@ -1,0 +1,54 @@
+body, html{
+    height: 100%;
+}
+
+.container {
+    height: 100%;  
+    width: 1366px;  
+    margin: 0 auto;
+}
+
+.text-center{    
+    text-align: center;	
+}
+
+.logo{
+    width: 100%;
+    position: relative;
+    height: 40%;
+    vertical-align: middle;
+    /* margin-top:calc(100% - 150px / 2); */
+    margin: auto;
+}
+
+.logo>img{
+    height: auto;
+	overflow: auto;
+	margin: auto auto 0;
+	position: absolute;
+	top: 0; left: 0;
+	bottom: 0; right: 0;
+}
+
+.content{
+    margin-top:25px;
+    height: 60%;
+}
+
+.content-box-container{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.content-box{
+    width: 33%;
+    background-color: aqua;
+}
+
+.content-box> h4{
+    margin: 10px auto auto;
+}
+
+.content-box> a{
+    display: block;
+}
