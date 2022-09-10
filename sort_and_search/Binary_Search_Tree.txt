@@ -1,12 +1,12 @@
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
 
-root 5'dir. sağında 3, solunda 7 bulunur.
-3'ün sağında 4, solunda 2 bulunur.
-2'nin sağında 1, solunda 0 bulunur.
-7'nin sağında 8, solunda 6 bulunur.
-8'nin sağında 9 bulunur.
-
-                    5
-            3             7
-        2       4     6       8
-      0   1                     9
+root 7'dir. sağında 8, solunda 5 bulunur.
+      7
+     / \
+    5   8
+   / \   \
+  1   6   9
+ /  \
+0    3
+    / \
+   2   4
