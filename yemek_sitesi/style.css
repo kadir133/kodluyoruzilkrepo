@@ -1,0 +1,113 @@
+body{
+    width:1366px; margin:0 auto;
+}
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+.summary {
+    align-items: center;
+    border-bottom: 4px solid #c01f54;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+
+.summary-title {
+    color: #c01f54;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+    margin-bottom: .5rem;
+}
+
+.summary-text {
+    font-size: 1.6rem;
+    }
+
+    .theme-color{
+        color: #c01f54;
+    }
+
+    .menu {
+        display: flex;
+        list-style: none;
+    }
+
+    .menu>li {
+        margin: 0 15px;
+        width: 33%;
+        background-color: #282A35;
+    }
+
+    .menu>li :hover,
+    .menu> .active{
+    background-color: #4CAF50;
+    }
+
+    .menu>li>a{
+        display: block;
+        text-align: center;
+text-decoration: none;
+padding: 15px;
+color: white!important;
+    }
+
+    .sub-title{
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+
+    .sectionTitle{
+    align-items: center;
+    color: #484848;
+    display: flex;
+    font-size: 2.6rem;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 40px;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+    }
+
+    .sectionTitle ::before,
+    .sectionTitle ::after{
+        border: 1px solid #484848;
+        content: "";
+        flex: 1 0 20px;
+    }
+    .sectionTitle ::before{
+        margin: 0 20px 0 0;
+    }
+    .sectionTitle ::after{
+        margin: 0 0 0 20px;
+    }
+
+    .sectionTitle>a{
+        color: #484848;
+        text-decoration: none;
+    }
+
+    .list-item{
+        max-width: 400px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .list-item :hover{        
+        cursor: pointer;
+    }
+
+    .list-item img{
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .list-item h4{
+        font-size: 18px;
+        margin: 0;
+        padding-top: 10px;
+    }
