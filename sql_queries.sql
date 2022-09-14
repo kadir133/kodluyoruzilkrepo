@@ -32,3 +32,9 @@
 1 - SELECT * FROM film where title like '%n' order by length desc limit 5
 2 - SELECT * FROM film where title like '%n' order by length offset 5 limit 5
 3 - SELECT * FROM customer  where store_id= 1 order by last_name desc limit 4
+
+ÖDEV - 6
+1 - SELECT AVG(rental_rate ) FROM film
+2 - SELECT count(*) FROM film where title like 'C%'
+3 - SELECT max(length) FROM film where rental_rate=0.99
+4 - SELECT COUNT(DISTINCT replacement_cost) FROM film where length>150
