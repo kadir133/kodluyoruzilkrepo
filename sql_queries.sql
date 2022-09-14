@@ -26,3 +26,9 @@
 3 - SELECT COUNT(*) FROM film WHERE title LIKE 'T%' AND cast(rating as varchar) like 'G%'
 4 - SELECT COUNT(*) FROM country where length(country)=5
 5 - SELECT count(*) FROM city where city ilike '%r'
+
+ÖDEV - 5
+
+1 - SELECT * FROM film where title like '%n' order by length desc limit 5
+2 - SELECT * FROM film where title like '%n' order by length offset 5 limit 5
+3 - SELECT * FROM customer  where store_id= 1 order by last_name desc limit 4
