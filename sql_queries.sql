@@ -18,3 +18,11 @@
 2 - SELECT * FROM country WHERE country LIKE '_____%n'
 3 - SELECT * FROM film WHERE title ILIKE '%t%' AND (LENGTH(title)-LENGTH(Replace(REPLACE(title,'T',''),'t','')))>=4
 4 - SELECT * FROM film WHERE length>90 And title Like 'C%' AND rental_rate=2.99
+
+ÖDEV - 4
+
+1 - SELECT DISTINCT replacement_cost FROM film
+2 - SELECT COUNT(DISTINCT replacement_cost) FROM film
+3 - SELECT COUNT(*) FROM film WHERE title LIKE 'T%' AND cast(rating as varchar) like 'G%'
+4 - SELECT COUNT(*) FROM country where length(country)=5
+5 - SELECT count(*) FROM city where city ilike '%r'
