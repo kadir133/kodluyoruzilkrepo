@@ -34,7 +34,16 @@
 3 - SELECT * FROM customer  where store_id= 1 order by last_name desc limit 4
 
 ÖDEV - 6
+
 1 - SELECT AVG(rental_rate ) FROM film
 2 - SELECT count(*) FROM film where title like 'C%'
 3 - SELECT max(length) FROM film where rental_rate=0.99
 4 - SELECT COUNT(DISTINCT replacement_cost) FROM film where length>150
+
+ÖDEV - 7
+
+1 - SELECT rating FROM film group by rating 
+2 - SELECT replacement_cost, count(*) FROM film group by replacement_cost having count(*)>50 
+3 - SELECT store_id , count(*) FROM customer group by store_id
+4 - SELECT country_id, count(city) FROM city group by country_id ORDER BY COUNT(city) DESC LIMIT 1
+
