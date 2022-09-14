@@ -47,3 +47,6 @@
 3 - SELECT store_id , count(*) FROM customer group by store_id
 4 - SELECT country_id, count(city) FROM city group by country_id ORDER BY COUNT(city) DESC LIMIT 1
 
+ÖDEV 8 
+
+1 - CREATE TABLE employee (id int, name varchar(50), birdthday date, email varchar(100));
