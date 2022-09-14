@@ -16,7 +16,7 @@
 
 1 - SELECT * FROM country WHERE country LIKE 'A%a'
 2 - SELECT * FROM country WHERE country LIKE '_____%n'
-3 - SELECT * FROM film WHERE title ILIKE '%t%' AND (LENGTH(title)-LENGTH(Replace(REPLACE(title,'T',''),'t','')))>=4
+3 - SELECT * FROM film WHERE title ILIKE '%t%t&t&t%'
 4 - SELECT * FROM film WHERE length>90 And title Like 'C%' AND rental_rate=2.99
 
 ÖDEV - 4
