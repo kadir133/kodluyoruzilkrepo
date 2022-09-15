@@ -1,29 +1,22 @@
-.empty::placeholder {
-  text-align: start;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::placeholder{
+  text-align: center;
   font-size: 14px;
   color: gray;
-  background-position: 0%;
-  background-size: 8%;
-  background-image: url("/assets/search-solid.svg");
-  background-repeat: no-repeat;
-  padding: 10px;
-  
+  background-position: 40%;
+  background-size: 6%;
 }
 
 input.empty {
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-  background-color: rgb(239, 239, 239);
-  border: 0;
-  border-radius: 8px;
-  box-sizing: border-box;
-  color: rgb(38, 38, 38);
-  height: 100%;
-  outline: none;
-  padding: 3px 10px;
-  z-index: 2;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #FAFAFA;
 }
 
 .postuserfont {
@@ -31,6 +24,7 @@ input.empty {
   font-size: 15px;
   color: black;
 }
+
 
 .storyphoto {
   width: 60px;
@@ -48,33 +42,10 @@ input.empty {
 
 .rightpanellinks {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: lightgrey;
 }
 
 .rightpanellinks:hover {
   text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-.logo {
-  margin-left: 192px;
-}
-
-.middlearea {
-  max-width: 200px !important;
-}
-
-.card-footer-bg {
-  background-color: white;
-}
-
-.stickysidebar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 60px;
-}
-
-.followbtn {
-  float: right;
-  margin-top: 5px;
+  color: lightgrey;
 }
