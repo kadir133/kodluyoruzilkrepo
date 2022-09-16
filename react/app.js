@@ -1,4 +1,4 @@
 
 import getUser from "./class.js"
 
-console.log(getUser(1));
+console.log(await getUser(1));
