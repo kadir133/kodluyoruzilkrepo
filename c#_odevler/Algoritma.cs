@@ -8,7 +8,7 @@ namespace CSharp_works
 {
     public static class Algoritma
     {
-        public static void GetChangedText()
+        public static void RemoveChar()
         {
             Console.Write("Text Giriniz: ");
             var text = Console.ReadLine();
@@ -27,6 +27,22 @@ namespace CSharp_works
             }
 
             Console.WriteLine(text.Remove(index, 1));
+        }
+
+        public static void ChangeChars()
+        {
+            Console.Write("Text Giriniz: ");
+            var text = Console.ReadLine();
+
+            var splits = text.Split(" ");
+            for (int i = 0; i < splits.Length; i++)
+            {
+                var write = splits[i].Length > 1 ? splits[i].Substring(1) + splits[i][0] : splits[i];
+                Console.Write(write);
+                Console.Write(" ");
+            }
+
+            Console.WriteLine();
         }
     }
 }
