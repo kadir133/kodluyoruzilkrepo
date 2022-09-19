@@ -44,5 +44,27 @@ namespace CSharp_works
 
             Console.WriteLine();
         }
+        
+        
+        public static void NumberPairs()
+        {
+            Console.Write("Sayı ikililerini Giriniz: ");
+            var text = Console.ReadLine();
+
+            int num1, num2;
+            var splits = text.Split(" ").Select((a, i) => new { number = Convert.ToInt32(a), pair = (i % 2 == 0 ? i : i - 1) }).GroupBy(a => a.pair).ToList();
+            foreach (var item in splits)
+            {
+                num1 = item.First().number;
+                num2 = item.Last().number;
+                var write = num1 + num2;
+                if (num1 == num2)
+                    write *= write;
+                Console.Write(write);
+                Console.Write(" ");
+            }
+
+            Console.WriteLine();
+        }
     }
 }
