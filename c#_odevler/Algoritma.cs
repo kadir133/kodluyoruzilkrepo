@@ -61,6 +61,20 @@ namespace CSharp_works
 
             Console.WriteLine();
         }
+
+
+        public static void FindConsonants()
+        {
+            Console.Write("Text Giriniz: ");
+            var text = Console.ReadLine();
+
+            var vowels = "aeiou";
+            var splits = text.ToLower().Split(" ").Select(a => a.Length != 1 && a.Where((c, i) => i > 0 && !vowels.Contains(a[i - 1]) && !vowels.Contains(c)).Any()).ToList();
+
+            Console.Write(String.Join(" ", splits));
+
+            Console.WriteLine();
+        }
         
         
         public static void NumberPairs()
