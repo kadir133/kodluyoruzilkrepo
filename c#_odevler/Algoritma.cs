@@ -66,5 +66,23 @@ namespace CSharp_works
 
             Console.WriteLine();
         }
+
+        public static void AbsoluteSquaring()
+        {
+            Console.Write("Sayıları Giriniz: ");
+            var text = Console.ReadLine();
+
+            int num1, num2;
+            var splits = text.Split(" ").Select(a => Convert.ToInt32(a)).GroupBy(a => a < 67).ToList();
+            foreach (var item in splits)
+            {
+                var write = item.Key ? item.Sum(a => 67 - a) : item.Sum(a => (int)Math.Pow(Math.Abs(a - 67), 2));
+
+                Console.Write(write);
+                Console.Write(" ");
+            }
+
+            Console.WriteLine();
+        }
     }
 }
