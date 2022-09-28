@@ -5,11 +5,11 @@ public class Main {
         Scanner inp = new Scanner(System.in);
         
         //değişkenler
-        int raw,kdv,cost;
+        double raw,kdv,cost;
 
         //kullanıcıdan değerleri al.
         System.out.print("Ürün fiyatı giriniz:");
-        raw=inp.nextInt();
+        raw=inp.nextDoble();
 
         rate=raw<1000?18:8;
 
