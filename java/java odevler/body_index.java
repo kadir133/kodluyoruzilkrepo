@@ -9,9 +9,9 @@ public class Main {
 
         //kullanıcıdan değerleri al.
         System.out.print("Boyunuzu giriniz: ");
-        a=inp.nextInt();
+        a=inp.nextDouble();
         System.out.print("Kilonuzu giriniz (cm): ");
-        b=inp.nextInt()/100.0;
+        b=inp.nextDouble()/100;
         
         //Kilo (kg) /(Boy(m) * Boy(m))
 
